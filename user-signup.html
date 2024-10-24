@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Animation Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>User Login Plantify Market</title>
+
+    <!-- All Links -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!--Nav Bar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <Span class="h3 fw-bold d-block d-lg-none">Plantify Market</Span>
+                <img src="./assets/images/LOGO 2.png" class="d-none d-lg-block rounded-circle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="alertLogin()">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="alertLogin()">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="alertLogin()">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="alertLogin()">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link" href="#login">Login/Register</a>
+                        <div class="dropdown-content">
+                            <a href="./user-login.html">User Login</a>
+                            <a href="./seller-login.html">Seller Login</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--//Nav Bar-->
+
+
+    <!--Content Wrapper-->
+
+    <div id="content-wrapper">
+
+        <!--LOGIN USER-->
+
+        <section id="login-user" class="full-height px-lg-5">
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 pb-4" data-aos="fade-up" data-aos-duration="700">
+                        <h6 class="text-brand text-center">SIGN UP</h6>
+                        <h1 class="text-center">Don't Have An Account</h1>
+                    </div>
+
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
+                        <form action="#" class="row g-lg-3 gy-3">
+
+                           
+                            <div class="form-group col-12">
+                                <P>ENTER YOUR NAME</P>
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+
+                            <div class="form-group col-12">
+                                <P>ENTER YOUR EMAIL</P>
+                                <input type="email" class="form-control" placeholder="Example@gmail.com">
+                            </div>
+
+                            <div class="form-group col-12">
+                                <P>ENTER YOUR PASSWORD</P>
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+
+                            <div class="form-group col-12 d-grid">
+                                <a class="btn btn-brand" href="./user-login.html">SIGN-UP</a>
+
+                            </div>
+
+                            <div class="text-center">
+                                <p class="text-center">Already Have an Account</p>
+                                <a href="./user-signup.html" >Login Here</a>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--//LOGIN-->
+
+
+        <!-- FOOTER -->
+
+        <footer class="py-5 px-lg-5">
+            <div class="container">
+                <div class="row gy-4 justify-content-center">
+                    <div class="col-auto">
+                        <p class="social-icons">
+                            <a href=""><i class="lab la-twitter"></i></a>
+                            <a href=""><i class="lab la-instagram"></i></a>
+                            <a href=""><i class="lab la-github"></i></a>
+                            <a href=""><i class="lab la-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- //FOOTER -->
+
+    </div>
+
+    <!--//Content Wrapper-->
+
+
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+<script>
+    function alertLogin() {
+        alert("Please Sign in first.");
+    }
+</script>
+
+</body>
+
+</html>
